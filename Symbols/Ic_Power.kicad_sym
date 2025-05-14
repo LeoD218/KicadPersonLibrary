@@ -286,7 +286,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -14.986 21.336 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -299,6 +299,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -328,34 +329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" ""
+		(property "Manufacturer" "Rockchip (瑞芯微)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -374,9 +348,10 @@
 			)
 		)
 		(symbol "PMIC-Rockchip-RK805-1_1_0"
-			(rectangle
-				(start -11.43 20.32)
-				(end 13.97 -20.32)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 101.6) (xy 101.6 101.6) (xy 101.6 0) (xy 0 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -385,9 +360,20 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
-				(at -13.97 8.89 0)
-				(length 2.54)
+			(circle
+				(center 6.35 95.25)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -7.62 86.36 0)
+				(length 7.62)
 				(name "EN"
 					(effects
 						(font
@@ -403,9 +389,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -13.97 6.35 0)
-				(length 2.54)
+			(pin passive line
+				(at -7.62 76.2 0)
+				(length 7.62)
 				(name "SLEEP"
 					(effects
 						(font
@@ -421,9 +407,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -13.97 3.81 0)
-				(length 2.54)
+			(pin passive line
+				(at -7.62 66.04 0)
+				(length 7.62)
 				(name "LDO1"
 					(effects
 						(font
@@ -439,9 +425,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -13.97 1.27 0)
-				(length 2.54)
+			(pin passive line
+				(at -7.62 55.88 0)
+				(length 7.62)
 				(name "VCC5"
 					(effects
 						(font
@@ -457,9 +443,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -13.97 -1.27 0)
-				(length 2.54)
+			(pin passive line
+				(at -7.62 45.72 0)
+				(length 7.62)
 				(name "LDO2"
 					(effects
 						(font
@@ -475,9 +461,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -13.97 -3.81 0)
-				(length 2.54)
+			(pin passive line
+				(at -7.62 35.56 0)
+				(length 7.62)
 				(name "INT"
 					(effects
 						(font
@@ -493,9 +479,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -13.97 -6.35 0)
-				(length 2.54)
+			(pin passive line
+				(at -7.62 25.4 0)
+				(length 7.62)
 				(name "SCL"
 					(effects
 						(font
@@ -511,9 +497,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -13.97 -8.89 0)
-				(length 2.54)
+			(pin passive line
+				(at -7.62 15.24 0)
+				(length 7.62)
 				(name "SDA"
 					(effects
 						(font
@@ -529,45 +515,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -8.89 22.86 270)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -7.62 -22.86 90)
-				(length 2.54)
-				(name "RESETB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 22.86 270)
-				(length 2.54)
+			(pin passive line
+				(at 15.24 109.22 270)
+				(length 7.62)
 				(name "PWRON"
 					(effects
 						(font
@@ -583,17 +533,17 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -5.08 -22.86 90)
-				(length 2.54)
-				(name "FB2"
+			(pin passive line
+				(at 15.24 -7.62 90)
+				(length 7.62)
+				(name "RESETB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -601,9 +551,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -3.81 22.86 270)
-				(length 2.54)
+			(pin passive line
+				(at 25.4 109.22 270)
+				(length 7.62)
 				(name "FB3"
 					(effects
 						(font
@@ -619,17 +569,17 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -2.54 -22.86 90)
-				(length 2.54)
-				(name "SW2"
+			(pin passive line
+				(at 25.4 -7.62 90)
+				(length 7.62)
+				(name "FB2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -637,9 +587,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -1.27 22.86 270)
-				(length 2.54)
+			(pin passive line
+				(at 35.56 109.22 270)
+				(length 7.62)
 				(name "SW3"
 					(effects
 						(font
@@ -655,17 +605,17 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -22.86 90)
-				(length 2.54)
-				(name "VCC2"
+			(pin passive line
+				(at 35.56 -7.62 90)
+				(length 7.62)
+				(name "SW2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -673,9 +623,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 1.27 22.86 270)
-				(length 2.54)
+			(pin passive line
+				(at 45.72 109.22 270)
+				(length 7.62)
 				(name "VCC3"
 					(effects
 						(font
@@ -691,17 +641,17 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 2.54 -22.86 90)
-				(length 2.54)
-				(name "VCC1"
+			(pin passive line
+				(at 45.72 -7.62 90)
+				(length 7.62)
+				(name "VCC2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -709,9 +659,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 3.81 22.86 270)
-				(length 2.54)
+			(pin passive line
+				(at 55.88 109.22 270)
+				(length 7.62)
 				(name "VCC4"
 					(effects
 						(font
@@ -727,17 +677,17 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 5.08 -22.86 90)
-				(length 2.54)
-				(name "SW1"
+			(pin passive line
+				(at 55.88 -7.62 90)
+				(length 7.62)
+				(name "VCC1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -745,9 +695,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 6.35 22.86 270)
-				(length 2.54)
+			(pin passive line
+				(at 66.04 109.22 270)
+				(length 7.62)
 				(name "SW4"
 					(effects
 						(font
@@ -763,17 +713,17 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 7.62 -22.86 90)
-				(length 2.54)
-				(name "FB1"
+			(pin passive line
+				(at 66.04 -7.62 90)
+				(length 7.62)
+				(name "SW1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -781,9 +731,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 22.86 270)
-				(length 2.54)
+			(pin passive line
+				(at 76.2 109.22 270)
+				(length 7.62)
 				(name "FB4"
 					(effects
 						(font
@@ -799,17 +749,17 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 -22.86 90)
-				(length 2.54)
-				(name "OUT1"
+			(pin passive line
+				(at 76.2 -7.62 90)
+				(length 7.62)
+				(name "FB1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -817,9 +767,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 11.43 22.86 270)
-				(length 2.54)
+			(pin passive line
+				(at 86.36 109.22 270)
+				(length 7.62)
 				(name "CLK32K"
 					(effects
 						(font
@@ -835,9 +785,45 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 8.89 180)
-				(length 2.54)
+			(pin passive line
+				(at 86.36 -7.62 90)
+				(length 7.62)
+				(name "OUT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 109.22 93.98 180)
+				(length 7.62)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 109.22 86.36 180)
+				(length 7.62)
 				(name "LDO3"
 					(effects
 						(font
@@ -853,9 +839,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 6.35 180)
-				(length 2.54)
+			(pin passive line
+				(at 109.22 76.2 180)
+				(length 7.62)
 				(name "VCC6"
 					(effects
 						(font
@@ -871,9 +857,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 3.81 180)
-				(length 2.54)
+			(pin passive line
+				(at 109.22 66.04 180)
+				(length 7.62)
 				(name "VCCA"
 					(effects
 						(font
@@ -889,9 +875,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 1.27 180)
-				(length 2.54)
+			(pin passive line
+				(at 109.22 55.88 180)
+				(length 7.62)
 				(name "REFGND"
 					(effects
 						(font
@@ -907,9 +893,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 -1.27 180)
-				(length 2.54)
+			(pin passive line
+				(at 109.22 45.72 180)
+				(length 7.62)
 				(name "VREF"
 					(effects
 						(font
@@ -925,9 +911,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 -3.81 180)
-				(length 2.54)
+			(pin passive line
+				(at 109.22 35.56 180)
+				(length 7.62)
 				(name "XOUT"
 					(effects
 						(font
@@ -943,9 +929,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 -6.35 180)
-				(length 2.54)
+			(pin passive line
+				(at 109.22 25.4 180)
+				(length 7.62)
 				(name "XIN"
 					(effects
 						(font
@@ -961,9 +947,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 -8.89 180)
-				(length 2.54)
+			(pin passive line
+				(at 109.22 15.24 180)
+				(length 7.62)
 				(name "OUT2"
 					(effects
 						(font
@@ -982,10 +968,13 @@
 		)
 		(symbol "PMIC-Rockchip-RK805-1_1_1"
 			(text "RK805-1"
-				(at 1.778 4.318 0)
+				(at 52.07 51.308 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 5.08 5.08)
+						(thickness 1.016)
+						(bold yes)
+						(color 0 0 0 1)
 					)
 				)
 			)
