@@ -1532,14 +1532,14 @@
 		)
 		(symbol "TF-M_1_0"
 			(rectangle
-				(start -7.62 -12.7)
-				(end 12.7 12.7)
+				(start -7.62 12.7)
+				(end 12.7 -12.7)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(circle
@@ -1553,7 +1553,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 10.16 0)
 				(length 2.54)
 				(name "DAT2"
@@ -1571,7 +1571,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "CD/DAT3"
@@ -1589,7 +1589,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "CMD"
@@ -1607,7 +1607,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "VDD"
@@ -1625,7 +1625,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
 				(name "CLX"
@@ -1643,7 +1643,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "VSS"
@@ -1661,7 +1661,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "DAT0"
@@ -1679,7 +1679,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "DAT1"
@@ -1697,7 +1697,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "CD"
@@ -1715,7 +1715,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 15.24 270)
 				(length 2.54)
 				(name "13"
@@ -1733,7 +1733,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 5.08 -15.24 90)
 				(length 2.54)
 				(name "10"
@@ -1751,7 +1751,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 15.24 270)
 				(length 2.54)
 				(name "12"
@@ -1769,7 +1769,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 -15.24 90)
 				(length 2.54)
 				(name "11"

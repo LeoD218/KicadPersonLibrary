@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" ""
+		(property "Reference" "HDMI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2025-05-07:HDMI-SMD_HDMI-019S"
+		(property "Footprint" ""
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20241210/5789DD09E00549D9F0C4A6B9DACCC915.pdf"
+		(property "Datasheet" ""
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GND-DIP HDMI 连接器 尺寸大型 前插后贴 贴片卧式"
+		(property "Description" ""
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "HDMI-019S"
+		(property "Manufacturer Part" ""
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -58,7 +58,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SOFNG(硕方)"
+		(property "Manufacturer" ""
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -67,7 +67,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C111617"
+		(property "Supplier Part" ""
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -76,7 +76,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -85,7 +85,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "HDMI-019S"
+		(property "LCSC Part Name" ""
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -559,7 +559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2025-05-07:RJ45-TH_R-RJ45R08P-C000"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -568,7 +568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190508/C386757_590BCC8A33AAEEF7838490D656B2E4CF.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -577,7 +577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "连接器类型:RJ45插座;端口数量:1;安装方式:弯插;屏蔽:有屏蔽;LED:带LED;等级:-;触头材质:-;触头镀层:-;工作温度范围:0°C~+70°C;焊接温度(最大值):-;"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -586,7 +586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "R-RJ45R08P-C000"
+		(property "Manufacturer Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -595,7 +595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Ckmtw(灿科盟)"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -604,7 +604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C386757"
+		(property "Supplier Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -613,7 +613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -622,7 +622,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "弯插 带LED"
+		(property "LCSC Part Name" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1040,7 +1040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2025-05-07:RJ45-TH_R-RJ45S08P-B000"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1049,7 +1049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230518/2A9176DC2CFA2BE21D4E479BB66F85DB.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1058,7 +1058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "连接器类型:RJ45插座;端口数量:1;安装方式:直插;屏蔽:有屏蔽;LED:不带LED;等级:-;工作温度范围:0°C~+70°C;"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1067,7 +1067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "R-RJ45S08P-B000"
+		(property "Manufacturer Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1076,7 +1076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Ckmtw(灿科盟)"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1085,7 +1085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C386763"
+		(property "Supplier Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1094,7 +1094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1103,7 +1103,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "直插 不带LED"
+		(property "LCSC Part Name" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1810,7 +1810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2025-05-07:USB-A-TH_AF-SS-JB17.6"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1819,7 +1819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20241125/1AB4D1045039EE9B0983965E3F2E4118.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1828,7 +1828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "连接器类型:Type-A;标准:USB 2.0;公母:母;安装方式:弯插;触点数量:4Px2;端口数量:2;额定电流 - 电源:1.5A;工作温度范围:-25°C~+85°C;"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1837,7 +1837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "AF SS-JB17.6"
+		(property "Manufacturer Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1846,7 +1846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1855,7 +1855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C456021"
+		(property "Supplier Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1864,7 +1864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1873,7 +1873,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "Type-A 母 弯插"
+		(property "LCSC Part Name" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2151,7 +2151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200810/C720525_A4C9C15D608FF9239C9C137FD959DB52.pdf"
+		(property "Datasheet" ""
 			(at -2.794 -7.112 0)
 			(effects
 				(font
@@ -2160,7 +2160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "连接器类型:Type-A;标准:USB 2.0;公母:母;端口数量:1;触点数量:4P;安装方式:弯插;额定电流 - 电源:1.5A;触头材质:-;触头镀层:-;工作温度范围:-20°C~+70°C;焊接温度(最大值):260°C;"
+		(property "Description" ""
 			(at 1.27 -12.446 0)
 			(effects
 				(font
@@ -2169,7 +2169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "USB-231-ARY"
+		(property "Manufacturer Part" ""
 			(at -10.414 -16.002 0)
 			(effects
 				(font
@@ -2178,7 +2178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "XUNPU(讯普)"
+		(property "Manufacturer" ""
 			(at 0.762 -17.526 0)
 			(effects
 				(font
@@ -2187,7 +2187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C720525"
+		(property "Supplier Part" ""
 			(at -11.684 -19.558 0)
 			(effects
 				(font
@@ -2196,7 +2196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 12.954 -23.876 0)
 			(effects
 				(font
@@ -2205,7 +2205,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "Type-A 母 弯插"
+		(property "LCSC Part Name" ""
 			(at 17.78 -15.748 0)
 			(effects
 				(font
@@ -2377,7 +2377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2025-05-07:USB-A-TH_H181-AF2R06-12ALCR"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2386,7 +2386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250311/5CD393C4010485E6A2E1F0D59C1EAE06.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2395,7 +2395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "连接器类型:Type-A;协议标准:USB 3.0;公母:母;安装方式:弯插;触点数量:9Px2;端口数量:2;额定电流 - 电源:1.5A;工作温度:-;"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2404,7 +2404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "HC-USB3.0-L175-2X1-P"
+		(property "Manufacturer Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "HC(虹成电子)"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2422,7 +2422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C7501881"
+		(property "Supplier Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2431,7 +2431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2440,7 +2440,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "Type-A 母 弯插 USB3.0 AF90度 双层短体17.5mm 弯脚平口蓝色"
+		(property "LCSC Part Name" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2853,7 +2853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2025-05-07:USB-TH_USB3.0-A"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2862,7 +2862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250106/8BA10F86CAFCDDAE18949503A37B0231.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2871,7 +2871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "连接器类型:Type-A;协议标准:USB 3.0;公母:母;安装方式:弯插;触点数量:9P;端口数量:1;额定电流 - 电源:1.5A;工作温度:-25°C~+70°C;"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2880,7 +2880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "HC-USB3.0-L168-WP"
+		(property "Manufacturer Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2889,7 +2889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "HC(虹成电子)"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2898,7 +2898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C7501850"
+		(property "Supplier Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2907,7 +2907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2916,7 +2916,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "Type-A 母 弯插 USB3.0 A母90度 弯脚蓝色平口 吸塑盒"
+		(property "LCSC Part Name" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3160,7 +3160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2025-05-07:USB-C-SMD_TYPE-C-6PIN-2MD-073"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3178,7 +3178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "连接器类型:Type-C;标准:-;公母:母座;触点数量:16;端口数量:1;安装方式:卧贴;额定电流 - 电源:5A;工作温度范围:-25°C~+85°C;"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3187,7 +3187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TYPE-C 16PIN 2MD(073)"
+		(property "Manufacturer Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3196,7 +3196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3205,7 +3205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C2765186"
+		(property "Supplier Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3214,7 +3214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3223,7 +3223,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "TYPE-C母座 16P 4脚插件带定位柱 不锈钢外壳 2次模顶"
+		(property "LCSC Part Name" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3539,7 +3539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProLib_pcs_2025-05-07:TYPE-C-SMD_TYPE-C-6P_5"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3548,7 +3548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200618/C668623_A4B260DED7AC1949BAC6AE39E9F4CD80.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3557,7 +3557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "连接器类型:Type-C;标准:USB 3.1;公母:母;安装方式:卧贴;触点数量:6P;端口数量:1;额定电流 - 电源:3A;工作温度范围:-25°C~+85°C;"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3566,7 +3566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TYPE-C 6P(073)"
+		(property "Manufacturer Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3575,7 +3575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3584,7 +3584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C668623"
+		(property "Supplier Part" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3593,7 +3593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3602,7 +3602,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "Type-C 母 卧贴"
+		(property "LCSC Part Name" ""
 			(at 0 0 0)
 			(effects
 				(font
